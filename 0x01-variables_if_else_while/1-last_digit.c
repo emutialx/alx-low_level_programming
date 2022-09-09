@@ -8,10 +8,10 @@
 int main(void)
 {
 	int n;
+	int l_d;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int l_d;
 	l_d = n % 10;
 
 	if (l_d > 5)
