@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
 * main - last digit is checked for three condition
 *
@@ -7,8 +8,7 @@
 */
 int main(void)
 {
-	int n;
-	int l_d;
+	int n, l_d;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -26,7 +26,7 @@ int main(void)
 		printf("Last digit of %d is %d and is 0", n, l_d);
 	}
 
-	else if (l_d < 6)
+	else if (l_d < 6 && l_d != 0)
 	{
 		printf("Last digit of %d is %d and less than 6 and not 0\n", n, l_d);
 	}
