@@ -1,13 +1,18 @@
+/*
+ * File: 0-positive_or_negative.c
+ * Auth: Emebetw
+ */
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 #include "main.h"
-
 /**
-* main -prints a text
+* main -prints if number is positive or negative or zero
 *
 * Return: Always 0 (Success)
 */
+
 int main(void)
 {
 	int n;
