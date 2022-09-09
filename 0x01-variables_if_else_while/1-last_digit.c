@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - last digit is checked for three condition is grater than 5 less 
-* than  six or equal to zero
-* 
+* main - last digit is checked for three condition is grater than 5 les
+* than  six and not zero or equal to zero
 * Return: Always Zero (Success)
 */
 int main(void)
