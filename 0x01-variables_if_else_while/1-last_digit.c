@@ -4,7 +4,7 @@
 /**
 * main - last digit is checked for three condition
 *
-* Returns: Zero for successful code
+* Returns: Always Zero (Success)
 */
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 	if (l_d > 5)
 	{
 
-		printf("Last digit of %d is %d and is greater than 5", n, l_d);
+		printf("Last digit of %d is %d and is greater than 5\n", n, l_d);
 
 	}
 
@@ -30,6 +30,5 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l_d);
 	}
-	
 	return (0);
 }
