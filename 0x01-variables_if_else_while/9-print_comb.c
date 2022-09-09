@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *  * main - entry point.
- *   *
- *    * Return: Always returns zero
- *     */
+ * main - entry point.
+ *
+ * Return: Always returns zero
+ */
 int main(void)
 {
 	int n;
