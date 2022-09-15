@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - Check if a letter is upper
+ * mul - multiply two numbers
  * @a: The number to be multiplied
  * @b: The number to be multiplied
  *
