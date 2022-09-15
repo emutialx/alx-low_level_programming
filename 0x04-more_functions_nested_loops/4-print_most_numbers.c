@@ -3,8 +3,6 @@
 /**
  * print_most_numbers - entry point
  *
- * @c: numbers to be printed
- *
  * Return: void
  */
 void print_most_numbers(void)
@@ -13,11 +11,10 @@ void print_most_numbers(void)
 
 	for (c = 48; c <= 57; c++)
 	{
-		if (!(c == 50 || c ==52))
+		if (!(c == 50 || c == 52))
 		{
 			_putchar(c);
 		}
-	
 	}
 	_putchar('\n');
 }
