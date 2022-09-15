@@ -1,16 +1,19 @@
 #include "main.h"
 
 /**
- * print_numbers - Multiplies two integers
+ * print_numbers - Print the numbers since 0 up to 9
  *
- * @y: The number to pe printed
- *
- * Return: The result of multiplication between x param and y param
+ * Return: void
  */
+
 void print_numbers(void)
 {
-	int y;
-	for (y ='0'; y <= '9'; y++)
-		putchar(y);
-	putchar('\n');
+	int x;
+
+	for (x = 0; x <= 9; x++)
+	{
+		_putchar(x + '0');
+	}
+
+	_putchar('\n');
 }
