@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _realloc - Allocates space of `new_size` 
+ * _realloc - Allocates space of `new_size`
  * bytes and moves old data to new space.
  * @ptr: Pointer to the old memory space
  * @old_size: The size in bytes of the old memory space
